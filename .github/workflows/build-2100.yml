@@ -3,9 +3,9 @@ name: Build RM2100 R2100
 on: 
   release:
     types: [published]
-#  push:
-#    tags:
-#    - 'v*'
+ push:
+   tags:
+   - 'v*'
   #  branches: 
   #    - master
   schedule:
